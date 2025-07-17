@@ -1,0 +1,74 @@
+.calculator {
+    width: 25vw;
+    height: fit-content;
+    margin: 0 auto;
+    background-color: var(--green-4);
+    border-radius: 4px;
+    margin-top: 8rem;
+    padding: .5rem;
+    box-shadow: 0 0 8px rgba(215, 215, 215, 0.15);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.calculator .screen {
+    background-color: var(--green-1);
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    font-size: 4rem;
+    color: var(--green-4);
+    outline: none;
+    border: transparent;
+    border-radius: 4px;
+    overflow-x: auto;
+}
+
+.calculator .buttonsHeader {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: .25rem;
+    padding: 1rem 0 .25rem;
+}
+
+.calculator .buttonsHeader img {
+    width: 3rem;
+}
+
+.calculator .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: .25rem;
+    column-gap: .25rem;
+}
+
+.calculator .buttonsHeader button,
+.calculator .buttons button {
+    font-size: 1.5rem;
+    height: 5rem;
+    font-weight: bold;
+    background-color: var(--green-1);
+    outline: none;
+    border: transparent;
+    border-radius: 4px;
+    color: var(--green-2);
+    user-select: none;
+    transition: .1s ease-in-out all;
+}
+
+.calculator .buttonsHeader button:hover,
+.calculator .buttons button:hover {
+    background-color: var(--green-3);
+    border: 1px solid var(--green-1);
+    color: var(--green-1);
+    cursor: pointer;
+}
+
+.calculator .buttons .spanRow {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+}

@@ -1,0 +1,30 @@
+.header {
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    background: var(--green-4);
+}
+
+.header h1 {
+    font-size: calc(1.25vw + 1rem);
+    font-weight: normal;
+    color: var(--green-0);
+    letter-spacing: .5rem;
+    user-select: none;
+    animation: shadowAnimation 5s infinite;
+}
+
+@keyframes shadowAnimation {
+
+    0%,
+    100% {
+        text-shadow: 0 0 0 var(--text-shadow-1);
+    }
+
+    50% {
+        text-shadow: 0 0 8px var(--text-shadow-1);
+    }
+}

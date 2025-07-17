@@ -1,0 +1,43 @@
+.history {
+    width: 25vw;
+    height: fit-content;
+    background-color: var(--green-2);
+    padding: 1rem;
+    margin-top: -50vh;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.history .historyHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.history .historyHeader h1 {
+    letter-spacing: 4px;
+    margin-bottom: 1rem;
+}
+
+.history .historyHeader p svg {
+    width: 3rem;
+}
+
+.history .historyHeader p svg:hover {
+    cursor: pointer;
+}
+
+.history div {
+    background-color: var(--green-1);
+    color: var(--green-4);
+    font-weight: bold;
+    font-size: 1.5rem;
+    border: 4px solid transparent;
+    padding: 1rem;
+}
+
+.history div:hover {
+    cursor: pointer;
+    user-select: none;
+    border-color: var(--green-4);
+}
