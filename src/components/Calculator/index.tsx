@@ -1,5 +1,4 @@
 import { useState } from "react";
-import History from "./history";
 import styles from "./index.module.css"
 
 const Calculator = () => {
@@ -79,7 +78,6 @@ const Calculator = () => {
                     <button className={styles.orange} onClick={() => symbolClick("+")}>+</button>
                 </div>
             </div>
-            <History history={history} clearHistory={clearHistory} goToCalculusHistory={goToCalculusHistory} />
         </section>
     )
 };
