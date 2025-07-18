@@ -1,10 +1,21 @@
 :root {
-    --green-0: rgb(225, 240, 237);
-    --green-1: rgb(200, 226, 215);
-    --green-2: rgb(20, 69, 47);
-    --green-3: rgb(24, 57, 43);
-    --green-4: rgb(29, 46, 40);
-    --text-shadow-1: rgba(200, 226, 215, .15);
+    --black-1: #1F1E1D;
+    --black-2: #272624;
+    --black-3: #3D3B39;
+    --white-bg-1: #746F6A;
+    --white-bg-2: #e7d4be;
+    --white-1: #B9B3AE;
+    --white-2: #DBD1C7;
+    --white-3: #EDE6DF;
+    --blue-1: #001A33;
+    --blue-2: #002347;
+    --blue-3: #003366;
+    --blue-4: #003F7D;
+    --orange-bg-1: #A65E03;
+    --orange-1: #C84005;
+    --orange-2: #FF5003;
+    --orange-3: #FD7702;
+    --orange-4: #FF8E00;
 }
 
 * {
@@ -16,5 +27,5 @@
 body {
     background-color: rgba(25, 25, 25, 1);
     color: white;
-    font-family: "Roboto Slab", serif;
+    font-family: "Jersey 10", sans-serif;
 }

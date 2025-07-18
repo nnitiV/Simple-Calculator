@@ -1,43 +1,47 @@
 .history {
-    width: 25vw;
-    height: fit-content;
-    background-color: var(--green-2);
+    width: 20vw;
+    height: 39vw;
+    background-color: var(--blue-1);
     padding: 1rem;
-    margin-top: -50vh;
-    border-radius: 4px;
-    text-align: center;
+    border: .5rem solid var(--black-1);
+    border-radius: 1rem;
 }
 
-.history .historyHeader {
+.history header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-radius: .5rem;
 }
 
-.history .historyHeader h1 {
-    letter-spacing: 4px;
-    margin-bottom: 1rem;
+.history header h1 {
+    font-size: 4rem;
 }
 
-.history .historyHeader p svg {
-    width: 3rem;
+.history header img {
+    width: 5vw;
+    height: 5vw;
 }
 
-.history .historyHeader p svg:hover {
+.history header img:hover {
     cursor: pointer;
 }
 
-.history div {
-    background-color: var(--green-1);
-    color: var(--green-4);
+.history main {
+    display: flex;
+    flex-direction: column;
+}
+
+.history main p {
+    font-size: 2rem;
     font-weight: bold;
-    font-size: 1.5rem;
+    margin-bottom: 1rem;
     border: 4px solid transparent;
-    padding: 1rem;
+    border-radius: .5rem;
+    padding: .25rem 1rem;
 }
 
-.history div:hover {
+.history main p:hover {
+    border: 4px solid var(--white-3);
     cursor: pointer;
-    user-select: none;
-    border-color: var(--green-4);
 }
