@@ -1,4 +1,4 @@
-<h1>Simple-Calculator</h1><br/>
+<h1 align="center">Simple-Calculator</h1><br/>
 <p align="center">
 This is a challenge of a simple calculator made in one night without any prep.
 <img width="1400" height="804" alt="Macbook-Air-localhost (1)" src="https://github.com/user-attachments/assets/8a84cc1f-7342-48e4-bb35-9077ef5240ab" />
