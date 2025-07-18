@@ -1,6 +1,6 @@
 import { useState } from "react";
 import styles from "./index.module.css"
-import History from "./history";
+import History from "./CalculusHistory";
 
 const Calculator = () => {
     const [screenText, setScreenText] = useState<string>("0");
