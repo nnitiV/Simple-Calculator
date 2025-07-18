@@ -1,5 +1,6 @@
 import { useState } from "react";
 import styles from "./index.module.css"
+import History from "./history";
 
 const Calculator = () => {
     const [screenText, setScreenText] = useState<string>("0");
@@ -78,6 +79,7 @@ const Calculator = () => {
                     <button className={styles.orange} onClick={() => symbolClick("+")}>+</button>
                 </div>
             </div>
+            <History history={history} clearHistory={clearHistory} goToCalculusHistory={goToCalculusHistory} />
         </section>
     )
 };
